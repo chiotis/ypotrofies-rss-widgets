@@ -9,7 +9,7 @@
  * License: GPL2 
  */
 function dashboard_widget_function() {
-     $rss = fetch_feed( "http://lawyerist.com/feed/" );
+     $rss = fetch_feed( "http://scholarship-positions.com/category/international-phd-programmes/feed" );
   
      if ( is_wp_error($rss) ) {
           if ( is_admin() || current_user_can('manage_options') ) {
@@ -52,7 +52,7 @@ unset($rss);
 }
  
 function add_dashboard_widget() {
-     wp_add_dashboard_widget('lawyerist_dashboard_widget', 'Recent Posts from Lawyerist.com', 'dashboard_widget_function');
+     wp_add_dashboard_widget('lawyerist_dashboard_widget', 'International Feed - Scholarship Positions', 'dashboard_widget_function');
 }
  
 add_action('wp_dashboard_setup', 'add_dashboard_widget');
