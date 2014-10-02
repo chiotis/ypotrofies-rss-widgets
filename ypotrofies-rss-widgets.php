@@ -43,7 +43,7 @@ if ( !isset($items) )
           $content = $item->get_content();
           $content = wp_html_excerpt($content, 250) . ' ...';
   
-         echo "<li><a class='rsswidget' href='$link'>$title</a>\n<div class='rssSummary'>$content</div>\n";
+         echo "<li><a class='rsswidget' href='$link' target='_blank' >$title</a>\n</li>\n";
 }
   
 echo "</ul>\n";
