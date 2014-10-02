@@ -3,7 +3,7 @@
  * Plugin Name: Ypotrofies RSS Widgets
  * Plugin URI: 
  * Description: A bunch of RSS widgets
- * Version: 1.0
+ * Version: 1.0.1
  * Author: Christos Chiotis
  * Author URI: http://christoschiotis.com
  * License: GPL2 
